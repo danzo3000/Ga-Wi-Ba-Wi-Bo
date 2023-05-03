@@ -61,12 +61,19 @@ h1.main-title {
   font-family: "Dokdo", cursive;
   font-size: 70px;
   text-shadow: 4px 4px rgba(251, 185, 3, 0.959);
+  margin-top: none;
 }
 
 .header p {
   font-family: "Mansalva", cursive;
   font-size: 20px;
   margin-bottom: 1rem;
+}
+
+.header img {
+  height: 3rem;
+  width: auto;
+  margin-top: 1rem;
 }
 
 /*---------------------------------SCORES------*/
@@ -90,6 +97,11 @@ h1.main-title {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-family: "Mansalva", cursive;
+}
+
+.hidden {
+  color: rgba(251, 185, 3, 0.959);
 }
 
 .player-one h2,
@@ -105,6 +117,19 @@ h1.main-title {
   width: 50%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border: 2px solid black;
+}
+
+.player-one {
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.cpu {
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 .player-one-score,
@@ -115,6 +140,7 @@ h1.main-title {
   border: 2px solid black;
   font-size: 1rem;
   background-color: white;
+  font-family: "Mansalva", cursive;
 }
 
 .player-one-score {
@@ -135,6 +161,85 @@ h1.main-title {
 
 .cpu {
   background-color: blue;
+}
+
+/*---------------------------------GAME-------------*/
+
+.game {
+  background-color: rgba(251, 185, 3, 0.959);
+}
+
+.game .icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.player-one-icon,
+.cpu-icon {
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.player-one-icon {
+  border-right: 4px solid black;
+}
+
+.cpu-icon {
+  border-left: 4px solid black;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.game-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-family: "Mansalva", cursive;
+  margin-bottom: 1rem;
+}
+
+.game-button:hover {
+  box-shadow: 0 0 2px 4px #ffffff;
+}
+
+.scissors {
+  border: 3px solid #91c92d;
+}
+
+.rock {
+  border: 3px solid #d6514f;
+}
+
+.paper {
+  border: 3px solid #3577ac;
+}
+
+.post-game button {
+  font-family: "Mansalva", cursive;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.post-game button:hover {
+  box-shadow: 0 0 2px 4px #ffffff;
+}
+
+/*---------------------------------SHOW-WINNER------*/
+
+.winner-message {
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*---------------------------------MEDIA QUERIES----*/

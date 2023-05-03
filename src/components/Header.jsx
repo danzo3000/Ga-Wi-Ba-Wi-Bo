@@ -1,6 +1,9 @@
+import logo from "../images/rock-scissors-paper.png";
+
 export const Header = () => {
   return (
     <header className="header">
+      <img src={logo} alt="rock, paper, scissors" />
       <h1 className="main-title">"Ga-Wi-Ba-Wi-Bo!"</h1>
       <p>
         Ga-wi 가위 (Scissors)
