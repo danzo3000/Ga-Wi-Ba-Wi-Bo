@@ -106,7 +106,7 @@ h1.main-title {
 
 .player-one h2,
 .cpu h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   font-family: "Dokdo", cursive;
   -webkit-text-stroke: 1px black;
@@ -138,7 +138,7 @@ h1.main-title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: 2px solid black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: white;
   font-family: "Mansalva", cursive;
 }
@@ -184,11 +184,11 @@ h1.main-title {
 }
 
 .player-one-icon {
-  border-right: 4px solid black;
+  border-right: 2px solid black;
 }
 
 .cpu-icon {
-  border-left: 4px solid black;
+  border-left: 2px solid black;
 }
 
 .buttons {
@@ -264,5 +264,18 @@ h1.main-title {
 
   .header p {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-button {
+    height: 8rem;
+    width: 8rem;
+    font-size: 1.5rem;
+  }
+
+  .post-game button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
   }
 }

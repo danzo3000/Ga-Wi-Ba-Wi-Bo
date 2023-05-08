@@ -10,7 +10,7 @@ export const CpuIcon = ({ action, ...props }) => {
   };
   const Icon = iconList[action];
   return (
-    <div className="player-one-icon">
+    <div className="cpu-icon">
       <Icon size={60} />
     </div>
   );
