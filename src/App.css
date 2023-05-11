@@ -267,6 +267,12 @@ h1.main-title {
   }
 }
 
+@media (max-width: 305px) {
+  h1.main-title {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .game-button {
     height: 8rem;
